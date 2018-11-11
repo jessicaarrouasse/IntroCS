@@ -1,6 +1,5 @@
 /****************************************** 
 *Student name: Arrouasse Jessica
-*Student ID: 328786348
 *Exercise name: ex2
 ******************************************/ 
 
