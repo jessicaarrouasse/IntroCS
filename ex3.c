@@ -51,8 +51,8 @@ int main()
 	int num1, num2;
     int factor = 0, remainder = 0, total = 0;
     int base;
-    int unchangedNum1;
-    int unchangedNum2;
+    int originalNum1;
+    int originalNum2;
     int lastDigit;
 
     //mission 2
@@ -118,8 +118,8 @@ int main()
 					    scanf("%d", &num2);
 
 					    //keep the number befor change
-					    unchangedNum1 = num1;
-					    unchangedNum2 = num2;
+					    originalNum1 = num1;
+					    originalNum2 = num2;
 					    total = 0;
 
 					    //the initial factor
@@ -147,8 +147,8 @@ int main()
 
 					    //print the sum    
 					    printf("The result of %d + %d in base %d is %d\n",
-					    		unchangedNum1, 
-					            unchangedNum2, 
+					    		originalNum1, 
+					            originalNum2, 
 					            base, total);
 					    break;
 
